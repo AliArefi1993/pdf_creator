@@ -36,3 +36,4 @@ with open(output_file, "wb") as f:
     f.write(img2pdf.convert([os.path.join(base_path,i) for i in files if i.endswith(".jpg")]))
     
 print('done')
+print('ali')
